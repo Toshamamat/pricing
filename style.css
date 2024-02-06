@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+.block{
+    background-color: rgb(245, 245, 245);
+}
+
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.separator{
+    border: 1px solid rgb(236, 121, 121);
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 40px auto 40px;
+}
+
+h5{
+    width: 1169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(134, 135, 139);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Raleway";
+    margin-bottom: 40px;
+}
+
+.price1, .price2, .price3 {
+    width: 370px;
+    height: 510px; 
+    margin-bottom: 30px;
+}
+.price1{
+    margin-left: 15px;
+}
+.price2 {
+    transition: 0.5s;
+}
+.price3{
+    margin-right: 15px;
+}
+.price2:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: translate(0, -10px);
+}
+   
+.box1{
+    width: 370px;
+    height: 60px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: "Open Sans";
+}
+
+.box2{
+    width: 369px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Raleway";
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width: 370px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Raleway";
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 370px;
+    height: 50px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(255, 255, 255);
+    color: rgb(134, 135, 139);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Raleway";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
